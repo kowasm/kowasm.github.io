@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>web</title>
+<link href="../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../scripts/sourceset_dependencies.js" async></script>
+<link href="../styles/style.css" rel="Stylesheet">
+<link href="../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../styles/main.css" rel="Stylesheet">
+<link href="../styles/prism.css" rel="Stylesheet">
+<link href="../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../scripts/main.js" defer></script>
+<script type="text/javascript" src="../scripts/prism.js" async></script>
+<script type="text/javascript" src="../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+<a href="../index.html">
+<span>kowasm</span>            </a>    </div>
+    <div>0.1.0-SNAPSHOT
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector common-like" data-active="" data-filter=":web:dokkaHtmlPartial/commonMain">common</button>
+                <button class="platform-tag platform-selector wasm-like" data-active="" data-filter=":web:dokkaHtmlPartial/wasmMain">wasm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageids="web::////PointingToDeclaration//1589863965">
+  <div class="breadcrumbs"></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>web</span></span></h1>
+    <div class="platform-hinted UnderCoverText with-platform-tabs" data-platform-hinted="data-platform-hinted">
+      <div class="platform-bookmarks-row" data-toggle-list="data-toggle-list"><button class="platform-bookmark" data-filterable-current=":web:dokkaHtmlPartial/commonMain" data-filterable-set=":web:dokkaHtmlPartial/commonMain" data-active="" data-toggle=":web:dokkaHtmlPartial/commonMain">common</button><button class="platform-bookmark" data-filterable-current=":web:dokkaHtmlPartial/wasmMain" data-filterable-set=":web:dokkaHtmlPartial/wasmMain" data-toggle=":web:dokkaHtmlPartial/wasmMain">wasm</button></div>
+<div class="content sourceset-dependent-content" data-active="" data-togglable=":web:dokkaHtmlPartial/commonMain"><p class="paragraph">This module allows to create a web server and defines HTTP routes using a proper DSL.</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">fun main() {<br>    val userService = ...<br>    webServer {<br>        router {<br>            GET("/") {<br>                val content = content(userService.findAll())<br>                ok().contentType(MediaType.TEXT_HTML).body(content)<br>            }<br>            (GET("/api") and accept(MediaType.APPLICATION_JSON)) {<br>                ok().contentType(MediaType.APPLICATION_JSON).body(userService.findAll())<br>            }<br>        }<br>    }.startNodejs() // could be startWasiServer() when WASI runtimes will support WasmGC  <br>}<br><br>fun content(users: List&lt;User&gt;) = createHTML().html {<br>    head {<br>        meta { charset = "utf-8" }<br>    }<br>    body {<br>        h1 { +"Users" }<br>        ul {<br>            users.forEach { user -&gt;<br>                li { +user.name }<br>            }<br>        }<br>    }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div><div class="content sourceset-dependent-content" data-togglable=":web:dokkaHtmlPartial/wasmMain"><p class="paragraph">This module allows to create a web server and defines HTTP routes using a proper DSL.</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">fun main() {<br>    val userService = ...<br>    webServer {<br>        router {<br>            GET("/") {<br>                val content = content(userService.findAll())<br>                ok().contentType(MediaType.TEXT_HTML).body(content)<br>            }<br>            (GET("/api") and accept(MediaType.APPLICATION_JSON)) {<br>                ok().contentType(MediaType.APPLICATION_JSON).body(userService.findAll())<br>            }<br>        }<br>    }.startNodejs() // could be startWasiServer() when WASI runtimes will support WasmGC  <br>}<br><br>fun content(users: List&lt;User&gt;) = createHTML().html {<br>    head {<br>        meta { charset = "utf-8" }<br>    }<br>    body {<br>        h1 { +"Users" }<br>        ul {<br>            users.forEach { user -&gt;<br>                li { +user.name }<br>            }<br>        }<br>    }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div>    </div>
+  </div>
+  <h2 class="">Packages</h2>
+  <div class="table"><a data-name="603822746%2FPackages%2F-737862639" anchor-label="org.kowasm.web" id="603822746%2FPackages%2F-737862639" data-filterable-set=":web:dokkaHtmlPartial/commonMain"></a>
+    <div class="table-row" data-filterable-current=":web:dokkaHtmlPartial/commonMain" data-filterable-set=":web:dokkaHtmlPartial/commonMain">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="org.kowasm.web/index.html">org.kowasm.web</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="603822746%2FPackages%2F-737862639"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag common-like">common</div>
+            </div>
+          </div>
+        </div>
+        <div><span class="brief-comment"><a data-name="603822746%2FPackages%2F-737862639" anchor-label="org.kowasm.web" id="603822746%2FPackages%2F-737862639" data-filterable-set=":web:dokkaHtmlPartial/commonMain"></a>
+            <p class="paragraph">Package for web related stuff.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="-1024207776%2FPackages%2F-737862639" anchor-label="org.kowasm.web.http" id="-1024207776%2FPackages%2F-737862639" data-filterable-set=":web:dokkaHtmlPartial/commonMain"></a>
+    <div class="table-row" data-filterable-current=":web:dokkaHtmlPartial/commonMain" data-filterable-set=":web:dokkaHtmlPartial/commonMain">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="org.kowasm.web.http/index.html">org.kowasm.web.http</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1024207776%2FPackages%2F-737862639"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag common-like">common</div>
+            </div>
+          </div>
+        </div>
+        <div><span class="brief-comment"><a data-name="-1024207776%2FPackages%2F-737862639" anchor-label="org.kowasm.web.http" id="-1024207776%2FPackages%2F-737862639" data-filterable-set=":web:dokkaHtmlPartial/commonMain"></a>
+            <p class="paragraph">Package for HTTP related stuff.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="571059541%2FPackages%2F-737862639" anchor-label="org.kowasm.web.http.server" id="571059541%2FPackages%2F-737862639" data-filterable-set=":web:dokkaHtmlPartial/commonMain"></a>
+    <div class="table-row" data-filterable-current=":web:dokkaHtmlPartial/commonMain" data-filterable-set=":web:dokkaHtmlPartial/commonMain">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="org.kowasm.web.http.server/index.html">org.kowasm.web.http.server</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="571059541%2FPackages%2F-737862639"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag common-like">common</div>
+            </div>
+          </div>
+        </div>
+        <div><span class="brief-comment"><a data-name="571059541%2FPackages%2F-737862639" anchor-label="org.kowasm.web.http.server" id="571059541%2FPackages%2F-737862639" data-filterable-set=":web:dokkaHtmlPartial/commonMain"></a>
+            <p class="paragraph">Package for HTTP server related stuff.</p>
+          </span></div>
+      </div>
+    </div>
+<a data-name="879135587%2FPackages%2F35274712" anchor-label="org.kowasm.web.nodejs" id="879135587%2FPackages%2F35274712" data-filterable-set=":web:dokkaHtmlPartial/wasmMain"></a>
+    <div class="table-row" data-filterable-current=":web:dokkaHtmlPartial/wasmMain" data-filterable-set=":web:dokkaHtmlPartial/wasmMain">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="org.kowasm.web.nodejs/index.html">org.kowasm.web.nodejs</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="879135587%2FPackages%2F35274712"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag wasm-like">wasm</div>
+            </div>
+          </div>
+        </div>
+        <div><span class="brief-comment"><a data-name="879135587%2FPackages%2F35274712" anchor-label="org.kowasm.web.nodejs" id="879135587%2FPackages%2F35274712" data-filterable-set=":web:dokkaHtmlPartial/wasmMain"></a>
+            <p class="paragraph">Package for Nodejs support.</p>
+          </span></div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
+

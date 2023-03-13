@@ -1,0 +1,529 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>org.kowasm.wasi</title>
+<link href="../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+<a href="../../index.html">
+<span>kowasm</span>            </a>    </div>
+    <div>0.1.0-SNAPSHOT
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector wasm-like" data-active="" data-filter=":wasi:dokkaHtmlPartial/wasmMain">wasm</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageids="wasi::org.kowasm.wasi////PointingToDeclaration//58271866">
+  <div class="breadcrumbs"><a href="../index.html">wasi</a><span class="delimiter">/</span><span class="current">org.kowasm.wasi</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+    <div class="platform-hinted UnderCoverText" data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><p class="paragraph">Package for WASI public API.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-1001627581%2FClasslikes%2F58271866" anchor-label="DateTime" id="-1001627581%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-date-time/index.html"><span>Date</span><wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1001627581%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-date-time/index.html">DateTime</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>seconds<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>nanoseconds<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">A time and date in seconds plus nanoseconds.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="201676671%2FClasslikes%2F58271866" anchor-label="DefaultMonotonicClock" id="201676671%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-default-monotonic-clock/index.html"><span>Default</span><wbr><span>Monotonic</span><wbr><span><span>Clock</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="201676671%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-default-monotonic-clock/index.html">DefaultMonotonicClock</a> : <a href="-monotonic-clock/index.html">MonotonicClock</a></div><div class="brief "><p class="paragraph">Default monotonic clock, suitable for general-purpose application needs.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2099695803%2FClasslikes%2F58271866" anchor-label="DefaultWallClock" id="2099695803%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-default-wall-clock/index.html"><span>Default</span><wbr><span>Wall</span><wbr><span><span>Clock</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2099695803%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-default-wall-clock/index.html">DefaultWallClock</a> : <a href="-wall-clock/index.html">WallClock</a></div><div class="brief "><p class="paragraph">Default wall clock, suitable for general-purpose application needs.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1687453119%2FClasslikes%2F58271866" anchor-label="DefaultWasiCli" id="1687453119%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-default-wasi-cli/index.html"><span>Default</span><wbr><span>Wasi</span><wbr><span><span>Cli</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1687453119%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-default-wasi-cli/index.html">DefaultWasiCli</a> : <a href="-wasi-cli/index.html">WasiCli</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-188310152%2FClasslikes%2F58271866" anchor-label="DefaultWasiFilesystem" id="-188310152%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-default-wasi-filesystem/index.html"><span>Default</span><wbr><span>Wasi</span><wbr><span><span>Filesystem</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-188310152%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-default-wasi-filesystem/index.html">DefaultWasiFilesystem</a> : <a href="-wasi-file-system/index.html">WasiFileSystem</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-761474129%2FClasslikes%2F58271866" anchor-label="Descriptor" id="-761474129%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-761474129%2FClasslikes%2F58271866"><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-761474129%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-761474129%2FClasslikes%2F58271866">Descriptor</a><span class="token operator"> = </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">A descriptor is a reference to a filesystem object, which may be a file, directory, named pipe, special file, or other object on which filesystem calls may be made.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="362662636%2FClasslikes%2F58271866" anchor-label="DescriptorFlags" id="362662636%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-descriptor-flags/index.html"><span>Descriptor</span><wbr><span><span>Flags</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="362662636%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-descriptor-flags/index.html">DescriptorFlags</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>read<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>write<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>nonBlocking<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>fileIntegritySync<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dataIntegritySync<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>requestedWriteSync<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>mutateDirectory<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">true</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Descriptor flags.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1094613653%2FClasslikes%2F58271866" anchor-label="DescriptorType" id="1094613653%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-descriptor-type/index.html"><span>Descriptor</span><wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1094613653%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-descriptor-type/index.html">DescriptorType</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-descriptor-type/index.html">DescriptorType</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">The type of a filesystem object referenced by a descriptor.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1865668441%2FClasslikes%2F58271866" anchor-label="DirectoryEntry" id="1865668441%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-directory-entry/index.html"><span>Directory</span><wbr><span><span>Entry</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1865668441%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-directory-entry/index.html">DirectoryEntry</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>inode<span class="token operator">: </span><a href="index.html#1292347481%2FClasslikes%2F58271866">INode</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>type<span class="token operator">: </span><a href="-descriptor-type/index.html">DescriptorType</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">A directory entry.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1704780785%2FClasslikes%2F58271866" anchor-label="ErrorCode" id="-1704780785%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-error-code/index.html"><span>Error</span><wbr><span><span>Code</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1704780785%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-error-code/index.html">ErrorCode</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-error-code/index.html">ErrorCode</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Error codes returned by functions. Not all of these error codes are returned by the functions provided by this API; some are used in higher-level library layers, and others are provided merely for alignment with POSIX.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="95599257%2FClasslikes%2F58271866" anchor-label="ErrorWasiPrint" id="95599257%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-error-wasi-print/index.html"><span>Error</span><wbr><span>Wasi</span><wbr><span><span>Print</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="95599257%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-error-wasi-print/index.html">ErrorWasiPrint</a> : <a href="-wasi-print/index.html">WasiPrint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1140988577%2FClasslikes%2F58271866" anchor-label="Filesize" id="1140988577%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1140988577%2FClasslikes%2F58271866"><span><span>Filesize</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1140988577%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#1140988577%2FClasslikes%2F58271866">Filesize</a><span class="token operator"> = </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-u-long/index.html">ULong</a></div><div class="brief "><p class="paragraph">File size or length of a region within a file.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1596444320%2FClasslikes%2F58271866" anchor-label="FilesystemException" id="-1596444320%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-filesystem-exception/index.html"><span>Filesystem</span><wbr><span><span>Exception</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1596444320%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-filesystem-exception/index.html">FilesystemException</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>code<span class="token operator">: </span><a href="-error-code/index.html">ErrorCode</a></span></span><span class="token punctuation">)</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html">Exception</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1292347481%2FClasslikes%2F58271866" anchor-label="INode" id="1292347481%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1292347481%2FClasslikes%2F58271866"><span><span>INode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1292347481%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#1292347481%2FClasslikes%2F58271866">INode</a><span class="token operator"> = </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-u-long/index.html">ULong</a></div><div class="brief "><p class="paragraph">Filesystem object serial number that is unique within its file system.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-472875901%2FClasslikes%2F58271866" anchor-label="Instant" id="-472875901%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-472875901%2FClasslikes%2F58271866"><span><span>Instant</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-472875901%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="index.html#-472875901%2FClasslikes%2F58271866">Instant</a><span class="token operator"> = </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><p class="paragraph">A timestamp in nanoseconds.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1656809772%2FClasslikes%2F58271866" anchor-label="Modes" id="-1656809772%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-modes/index.html"><span><span>Modes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1656809772%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-modes/index.html">Modes</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>readable<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>writeable<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>executable<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Permissions mode used by <code class="lang-kotlin">openAt</code>, <code class="lang-kotlin">changeFilePermissionsAt</code>, and similar.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="361694394%2FClasslikes%2F58271866" anchor-label="MonotonicClock" id="361694394%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-monotonic-clock/index.html"><span>Monotonic</span><wbr><span><span>Clock</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="361694394%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-monotonic-clock/index.html">MonotonicClock</a></div><div class="brief "><p class="paragraph">A monotonic clock is a clock which has an unspecified initial value, and successive reads of the clock will produce non-decreasing values.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1124603235%2FClasslikes%2F58271866" anchor-label="MonotonicTimer" id="1124603235%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-monotonic-timer/index.html"><span>Monotonic</span><wbr><span><span>Timer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1124603235%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-monotonic-timer/index.html">MonotonicTimer</a></div><div class="brief "><p class="paragraph">This is a timer that counts down from a given starting time down to zero on a monotonic clock.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="488289991%2FClasslikes%2F58271866" anchor-label="OpenFlags" id="488289991%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-open-flags/index.html"><span>Open</span><wbr><span><span>Flags</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="488289991%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-open-flags/index.html">OpenFlags</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>create<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>directory<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>exclude<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>truncate<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Open flags used by <code class="lang-kotlin">openAt</code>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1165441576%2FClasslikes%2F58271866" anchor-label="OutputWasiPrint" id="-1165441576%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-output-wasi-print/index.html"><span>Output</span><wbr><span>Wasi</span><wbr><span><span>Print</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1165441576%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-output-wasi-print/index.html">OutputWasiPrint</a> : <a href="-wasi-print/index.html">WasiPrint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2012578658%2FClasslikes%2F58271866" anchor-label="PathFlags" id="2012578658%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-path-flags/index.html"><span>Path</span><wbr><span><span>Flags</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2012578658%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-path-flags/index.html">PathFlags</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>symlinkFollow<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Flags determining the method of how paths are resolved.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="810466660%2FClasslikes%2F58271866" anchor-label="SecureWasiRandom" id="810466660%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-secure-wasi-random/index.html"><span>Secure</span><wbr><span>Wasi</span><wbr><span><span>Random</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="810466660%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-secure-wasi-random/index.html">SecureWasiRandom</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/index.html">Random</a></div><div class="brief "><p class="paragraph">Provide a secure random generator implemented via WASI.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1050885810%2FClasslikes%2F58271866" anchor-label="StandardDescriptor" id="1050885810%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-standard-descriptor/index.html"><span>Standard</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1050885810%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-standard-descriptor/index.html">StandardDescriptor</a></div><div class="brief "><p class="paragraph">Standard descriptors.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1800309408%2FClasslikes%2F58271866" anchor-label="WallClock" id="1800309408%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-wall-clock/index.html"><span>Wall</span><wbr><span><span>Clock</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1800309408%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-wall-clock/index.html">WallClock</a></div><div class="brief "><p class="paragraph">A wall clock is a clock which measures the date and time according to some external reference.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="194816862%2FClasslikes%2F58271866" anchor-label="Wasi" id="194816862%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-wasi/index.html"><span><span>Wasi</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="194816862%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">object </span><a href="-wasi/index.html">Wasi</a> : <a href="-wasi-file-system/index.html">WasiFileSystem</a>, <a href="-wasi-cli/index.html">WasiCli</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1061458716%2FClasslikes%2F58271866" anchor-label="WasiCli" id="-1061458716%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-wasi-cli/index.html"><span>Wasi</span><wbr><span><span>Cli</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1061458716%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-wasi-cli/index.html">WasiCli</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1850722364%2FClasslikes%2F58271866" anchor-label="WasiError" id="1850722364%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-wasi-error/index.html"><span>Wasi</span><wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1850722364%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">class </span><a href="-wasi-error/index.html">WasiError</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>error<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html">Throwable</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1631011475%2FClasslikes%2F58271866" anchor-label="WasiFileSystem" id="1631011475%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-wasi-file-system/index.html"><span>Wasi</span><wbr><span>File</span><wbr><span><span>System</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1631011475%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-wasi-file-system/index.html">WasiFileSystem</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-926713033%2FClasslikes%2F58271866" anchor-label="WasiPrint" id="-926713033%2FClasslikes%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-wasi-print/index.html"><span>Wasi</span><wbr><span><span>Print</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-926713033%2FClasslikes%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-wasi-print/index.html">WasiPrint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="156555886%2FFunctions%2F58271866" anchor-label="SeededWasiRandom" id="156555886%2FFunctions%2F58271866" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain"></a>
+          <div class="table-row" data-filterable-current=":wasi:dokkaHtmlPartial/wasmMain" data-filterable-set=":wasi:dokkaHtmlPartial/wasmMain">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-seeded-wasi-random.html"><span>Seeded</span><wbr><span>Wasi</span><wbr><span><span>Random</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="156555886%2FFunctions%2F58271866"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":wasi:dokkaHtmlPartial/wasmMain"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-seeded-wasi-random.html"><span class="token function">SeededWasiRandom</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/index.html">Random</a></div><div class="brief "><p class="paragraph">Provide a pseudo random generator seeded by a <code class="lang-kotlin">Long</code> value generated via WASI.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
+

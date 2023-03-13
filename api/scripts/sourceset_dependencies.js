@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":core:dokkaHtmlPartial/commonMain":[],":core:dokkaHtmlPartial/wasmMain":[":core:dokkaHtmlPartial/commonMain"],":web:dokkaHtmlPartial/commonMain":[],":web:dokkaHtmlPartial/wasmMain":[":web:dokkaHtmlPartial/commonMain"],":wasi:dokkaHtmlPartial/commonMain":[],":wasi:dokkaHtmlPartial/wasmMain":[":wasi:dokkaHtmlPartial/commonMain"]}'

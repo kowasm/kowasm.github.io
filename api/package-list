@@ -1,0 +1,14 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:core
+org.kowasm.core
+org.kowasm.core.util
+module:wasi
+org.kowasm.wasi
+org.kowasm.wasi.internal
+module:web
+org.kowasm.web
+org.kowasm.web.http
+org.kowasm.web.http.server
+org.kowasm.web.nodejs
