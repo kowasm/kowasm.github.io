@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by AtomCrusher for the English Wikipedia -->
+
+<svg
+   version="1.1"
+   width="612"
+   height="612"
+   id="svg6"
+   sodipodi:docname="kowasm-logo.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.3169935"
+     inkscape:cx="237.66252"
+     inkscape:cy="317.00992"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <!-- Block -->
+  <path
+     id="path2"
+     style="fill:#d45500"
+     inkscape:label="path2"
+     d="M 0 0 L 0 612 L 234.10156 612 A 71.352768 71.352768 0 0 1 233.91992 610.61328 A 71.352768 71.352768 0 0 1 305.27344 539.26172 A 71.352768 71.352768 0 0 1 376.625 610.61328 A 71.352768 71.352768 0 0 1 376.44336 612 L 612 612 L 612 0 L 376 0 L 376 3.3007812 C 376 42.060703 344.58 73.470703 305.83008 73.470703 C 267.07016 73.470703 235.66016 42.050703 235.66016 3.3007812 L 235.66016 0 L 0 0 z M 118.79492 300.65625 L 163.5293 300.65625 L 163.5293 396.08789 L 248.52344 300.65625 L 301.30859 300.65625 L 214.52539 394.29883 L 310.55469 518.06055 L 257.17188 518.06055 L 185.89648 422.0332 L 163.5293 445.29492 L 163.5293 518.06055 L 118.79492 518.06055 L 118.79492 300.65625 z M 319.5 300.65625 L 366.91797 300.65625 L 400.61719 463.48633 L 434.31836 300.65625 L 478.45508 300.65625 L 513.64453 463.78516 L 546.15234 300.65625 L 593.57031 300.65625 L 533.32812 518.06055 L 493.06836 518.06055 L 456.68359 348.37109 L 421.19531 518.06055 L 380.93555 518.06055 L 319.5 300.65625 z " />
+  <!-- Letters -->
+</svg>
