@@ -6,7 +6,6 @@ org.kowasm.core
 org.kowasm.core.util
 module:wasi
 org.kowasm.wasi
-org.kowasm.wasi.internal
 module:web
 org.kowasm.web
 org.kowasm.web.http

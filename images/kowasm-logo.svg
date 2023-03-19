@@ -3,11 +3,14 @@
 
 <svg
    version="1.1"
-   width="612"
-   height="612"
+   width="680.737"
+   height="680.737"
    id="svg6"
    sodipodi:docname="kowasm-logo.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="kowasm-logo.png"
+   inkscape:export-xdpi="188.23529"
+   inkscape:export-ydpi="188.23529"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,27 +27,32 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.3169935"
-     inkscape:cx="346.62282"
-     inkscape:cy="317.76922"
-     inkscape:window-width="1920"
-     inkscape:window-height="1020"
+     inkscape:zoom="0.93125503"
+     inkscape:cx="-73.55665"
+     inkscape:cy="471.94376"
+     inkscape:window-width="2560"
+     inkscape:window-height="1382"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
-  <rect
-     style="fill:#ffffff;stroke-width:1.65225"
-     id="rect162"
-     width="596.61835"
-     height="268.83521"
-     x="8.1753731"
-     y="257.49588" />
+     inkscape:current-layer="svg6"
+     showguides="false" />
   <!-- Block -->
-  <path
-     id="path2"
-     style="fill:#d45500"
-     inkscape:label="path2"
-     d="M 0 0 L 0 612 L 234.10156 612 A 71.352768 71.352768 0 0 1 233.91992 610.61328 A 71.352768 71.352768 0 0 1 305.27344 539.26172 A 71.352768 71.352768 0 0 1 376.625 610.61328 A 71.352768 71.352768 0 0 1 376.44336 612 L 612 612 L 612 0 L 376 0 L 376 3.3007812 C 376 42.060703 344.58 73.470703 305.83008 73.470703 C 267.07016 73.470703 235.66016 42.050703 235.66016 3.3007812 L 235.66016 0 L 0 0 z M 118.79492 300.65625 L 163.5293 300.65625 L 163.5293 396.08789 L 248.52344 300.65625 L 301.30859 300.65625 L 214.52539 394.29883 L 310.55469 518.06055 L 257.17188 518.06055 L 185.89648 422.0332 L 163.5293 445.29492 L 163.5293 518.06055 L 118.79492 518.06055 L 118.79492 300.65625 z M 319.5 300.65625 L 366.91797 300.65625 L 400.61719 463.48633 L 434.31836 300.65625 L 478.45508 300.65625 L 513.64453 463.78516 L 546.15234 300.65625 L 593.57031 300.65625 L 533.32812 518.06055 L 493.06836 518.06055 L 456.68359 348.37109 L 421.19531 518.06055 L 380.93555 518.06055 L 319.5 300.65625 z " />
+  <g
+     id="g494"
+     transform="translate(34.368)">
+    <rect
+       style="fill:#ffffff;stroke-width:1.65225"
+       id="rect162"
+       width="596.61835"
+       height="268.83521"
+       x="8.1753731"
+       y="257.49588" />
+    <path
+       id="path2"
+       style="fill:#d45500"
+       inkscape:label="path2"
+       d="m 0,0 v 612 h 178.28906 v 0.084 h 56.22266 a 70.777824,70.777824 0 0 0 70.62695,68.65235 70.777824,70.777824 0 0 0 70.625,-68.65235 h 7.92188 V 612 H 612 V 0 H 376 v 3.3007812 c 0,38.7598438 -31.42008,70.1699218 -70.16992,70.1699218 -38.75984,0 -70.16992,-31.420078 -70.16992,-70.1699218 V 0 Z m 118.79492,300.65625 h 44.73438 v 95.43164 l 84.99414,-95.43164 h 52.78515 l -86.7832,93.64258 96.0293,123.76172 h -53.38281 l -71.2754,-96.02735 -22.36718,23.26172 v 72.76563 h -44.73438 z m 200.70508,0 h 47.41797 l 33.69922,162.83008 33.70117,-162.83008 h 44.13672 l 35.18945,163.12891 32.50781,-163.12891 h 47.41797 l -60.24219,217.4043 H 493.06836 L 456.68359,348.37109 421.19531,518.06055 h -40.25976 z" />
+  </g>
   <!-- Letters -->
 </svg>
